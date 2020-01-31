@@ -1,1 +1,91 @@
-/* Insert your CSS here */
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0; margin: 0; box-sizing: border-box;
+}
+body{
+	font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
+	font-size: 17px;
+}
+.principale{
+	width: 60%;
+	margin: 20px auto;
+	padding: 30px;
+	box-shadow: 0 0 1px #000;
+	border-top: 20px solid #FF0004;
+}
+
+.titre1{
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 30px;
+}
+
+.titre2+span{
+	position: relative;
+	top: -54px;
+	left: 30px;
+	width: 40px;
+	height: 6px;
+	display: inline-block;
+	background-color: #FF0004;
+	
+}
+.h2{
+	text-transform: capitalize;
+	color: #FF0004;
+	font-size: 1rem;
+} 
+.titre1 .time{
+	color: #FF0004;
+	font-size: 1rem;
+}
+.titre2 {
+	display: flex;
+	justify-content:space-between;
+	margin: 50px 30px;
+	color: #FF0004;
+	font-size: 0.7rem;
+}
+.t2h{
+	color: #000000;
+	font-size: 1.3rem;
+}
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 90%;
+}
+
+
+th.th{
+	text-align: left;
+	border: 1px solid #000;
+	padding: 8px;
+	background:#FF0004 ;
+	color: #FFFFFF;
+	font-size: 0.7rem;
+}
+
+tbody tr th{
+	font-weight: 100;
+	border: 1px solid #000;
+	padding: 8px;
+	color: #000000;
+	font-size: 0.8rem;
+}
+span.nom{
+	font-weight: 900;
+}
+td{
+	border: 1px solid #000;
+	padding: 5px;
+}
+
+footer{
+	text-align: center;
+	margin: 20px;
+	font-size: 1rem;
+	padding: 10px;
+	
+}
