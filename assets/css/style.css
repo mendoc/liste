@@ -4,10 +4,32 @@ body{
 
 main{
     width: 800px;
-    height: 1060px;
+    height: 1450px;
     background-color: white;
     margin: 50px 80px 50px 160px;
 
+}
+
+.diez{
+    text-align: center;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.naming{
+    padding-bottom: 5px;
+}
+
+.time{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+.sig{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-right: 10px;
 }
 
 .rectangle{
@@ -25,6 +47,11 @@ main{
     padding: 10px;
     width: 650px;
     height: 700px;
+    font-family: Poppins;
+}
+
+p{
+    font-family: Poppins;
 }
 
 thead{
@@ -36,6 +63,7 @@ table th, table td{
     border: 2px solid black;
     font-weight: normal;
     padding-left: 10px;
+    padding-top: 5px;
 }
 
 
@@ -46,21 +74,24 @@ table th, table td{
 }
 
 .span1{
-    padding-left: 290px;
+    padding-left: 186px;
     color: red;
+    font-size: 0.8em;
+    font-weight: normal;
 
 }
 
 .t2{
     padding-left: 80px;
-    font-size: 1.3em;
-    font-weight: bold;
+    font-size: 1.2em;
+    font-weight: medium;
+    color: #232323;
 
 }
 
 .span2{
     font-size: 0.8em;
-    padding-left: 251px;
+    padding-left: 160px;
     font-weight: normal;
     color: red;
 }
@@ -75,4 +106,18 @@ table th, table td{
 
 .slogan{
     text-align: center;
+}
+.span3{
+    font-weight: bold;
+}
+
+table td{
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+thead th{
+    font-size: 0.8em;
 }
