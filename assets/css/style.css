@@ -1,1 +1,62 @@
-/* Insert your CSS here */
+
+.span3{
+	background-color: red;
+	margin-top: 0px;
+	color: red;
+	height: 20px;
+	font-size: 1px;
+}
+.p1{
+	color:red;
+	margin-left: 15px;
+}
+.p2{
+	margin-left: 15px; 
+    font-weight: bold;
+}
+.span1{
+	font-weight: normal;
+	color: red;
+	margin-left: 300px;
+}
+.span2{
+	border-bottom: 6px solid red;
+}
+
+table,tr{
+	border-collapse: collapse;
+	padding: 3px;
+	margin: 30px auto;
+	width: 700px;
+	height: 35px;
+}
+
+span{
+	font-weight: bold;
+}
+th{
+background-color: red;
+color: white;
+}
+.td{
+	text-align: center;
+}
+td, th{
+	border: 1px solid black;
+}
+
+div{
+    width: 60%;
+    margin: 100px auto;
+    box-shadow: 0px 0px 8px 8px gray;
+    padding: 0px 2px 6px 2px;
+    border: 2px solid yellow;
+}
+
+.footer{
+	text-align: center;
+}
+
+
+
+	  /* Insert your CSS here */
