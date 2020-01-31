@@ -1,7 +1,7 @@
-body{
+dy{
 	padding: 90px;
 	font-family: Roboto,vernada,sans-serif;
-	border-top-color:red;
+	border-top-color: red;
 	border-top-style: solid;
 	border-top-width: 30px;
 	border-right-style: solid;
@@ -50,14 +50,17 @@ tr{
 }
 p{
 	font-size: 30px;
+	margin-left: 5px;
+	margin-bottom: 5px;
 }
 .p1,.span2,.span1{
 color: red;
 }
-.span4{
-	border-bottom: 2px solid red;
-	border-width: 10px;
-}
 .p2{
 line-height: 0,8;
 }
+div{
+	height: 10px;
+	width:60px;
+	background-color: red;
+	margin-bottom: 60px;
