@@ -112,6 +112,14 @@ td > span{
     font-weight: bold;
 }
 
+td > span::selection{
+    color: #e40707;
+}
+
+td > span::-moz-selection{
+    color: #e40707;
+}
+
 tbody > tr:hover{
     background-color: #2e2c2c5e;
 }
@@ -121,13 +129,5 @@ tbody > tr td:nth-child(2)::selection{
 }
 
 tbody > tr td:nth-child(2)::-moz-selection{
-    color: #e40707;
-}
-
-tbody > tr > td:nth-child(2) span::-moz-selection{
-    color: #e40707;
-}
-
-tbody > tr > td:nth-child(2) span::selection{
     color: #e40707;
 }
