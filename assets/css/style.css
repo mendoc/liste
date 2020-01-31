@@ -1,1 +1,45 @@
-/* Insert your CSS here */
+body{
+	padding: 90px;
+	border-top-color: #FF1744;
+	border-top-style: solid;
+	border-top-width: 30px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-width: thin;
+	border-left-width: thin;
+	font-size: 20px;
+	margin: 40px 40px 40px 40px;
+}
+table{
+	background-color: #FFFFFF;
+	color: #F
+	margin: auto;
+	padding: auto;
+	min-width: 800px;
+	position: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+main{
+	font-size: medium;
+	font-family: «Time New Roman»;
+}
+header{
+	width: 100%;
+}
+th{
+	background-color: #FF1744;
+	color: 
+}
+p.slogan{
+	text-align: center;
+}
+td{
+	border: 1px solid black;
+}
+tr{
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 2px;
+}
