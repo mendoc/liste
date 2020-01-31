@@ -1,1 +1,83 @@
 /* Insert your CSS here */
+@font-face {
+	font-family: Quicksand-LightItalic;
+	src: url(Quicksand-LightItalic.otf);
+}
+header {
+	margin: auto;
+}
+#bre {
+	width: 100%;
+	background: #ff0000;
+	height: 10px;
+	margin-right: 700px;
+}
+#sln {
+	width: 60px;
+	height:10px;
+	background: #ff0000;
+}
+#left {
+	margin-top: -110px;
+	padding-left: 50px;
+}
+#right {
+	text-align: right;
+	margin-right: 170px;
+	margin-bottom: 40px;
+}
+.esp {
+	height: 20px;
+}
+.esp1 {
+	height: 1px;
+}
+.h {
+	width: 130px;
+}
+.name {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.n {
+	text-align: left;
+}
+main {
+	width: 800px;
+	height: 950px;
+	border: 1px white solid;
+	box-shadow: 6px 6px 25px black;
+	margin: auto;
+}
+table {
+	border: 1px black solid;
+	border-collapse: collapse;
+	min-width: 700px;
+	height: auto;
+	margin: auto;
+}
+th {
+	border: 1px black solid;
+	color: white;
+	background: #ff0000;
+}
+tr {
+	border: 1px black solid;
+}
+td {
+	border: 1px black solid;
+	min-height: 60px;
+}
+tr>td {
+	text-align: center;
+	font-style: bold;
+}
+td,th {
+	height: 30px;
+}
+footer {
+	text-align: center;
+	font-family: Quicksand-Lightitalic;
+	padding-top: 20px;
+	font-style: bold;
+}
