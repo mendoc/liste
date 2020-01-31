@@ -1,24 +1,35 @@
 body{
-
+    background-color: darkgrey;
 }
 
 main{
     width: 800px;
-    height: 1200px;
+    height: 1060px;
     background-color: white;
-    margin: 50px 80px 50px 180px;
-    border: 1px solid black;
+    margin: 50px 80px 50px 160px;
 
+}
+
+.rectangle{
+    width: 800px;
+    height: 25px;
+    background-color: red;
+    margin-top: 0;
 }
 
 .tableau{
     border-collapse: collapse;
     display: inline-table;
-    margin: 18px 30px 30px 25px;
+    margin: 30px 30px 30px 80px;
     text-align: left;
     padding: 10px;
-    width: 750px;
-    height: 150px;
+    width: 650px;
+    height: 700px;
+}
+
+thead{
+    background-color: red;
+    color: white;
 }
 
 table th, table td{
@@ -27,4 +38,41 @@ table th, table td{
     padding-left: 10px;
 }
 
-.t1
+
+.t1{
+    color: red;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.span1{
+    padding-left: 290px;
+    color: red;
+
+}
+
+.t2{
+    padding-left: 80px;
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+
+.span2{
+    font-size: 0.8em;
+    padding-left: 251px;
+    font-weight: normal;
+    color: red;
+}
+
+.trait{
+    width: 40px;
+    height: 6px;
+    background-color: red;
+    margin-left: 80px;
+    margin-top: -15px;
+}
+
+.slogan{
+    text-align: center;
+}
