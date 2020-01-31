@@ -1,1 +1,66 @@
+table.tab  {
+  border-collapse: collapse;
+  margin: 5px auto;
+}
+.tab th, td
+{
+border:1px solid black;
+padding: 10px;
+}
+.l
+{position: center;	
+margin: 5px auto;	
+
+}
+main
+{
+ border-top: 4px solid red;
+ margin: 10px auto;
+ width: 900px;
+ font-family: verdana;
+}
+
+.tit th
+{
+ background-color: red;
+}
+
+.dev
+{
+display: flex;
+justify-content: space-around;
+color:red;
+}
+.liste
+{
+display: flex;
+justify-content: space-around;
+color:red;
+}
+.e
+{
+text-align:center;
+}
+.pos
+{
+color:black;
+border:auto;
+margin-left:-40px;
+}
+
+.pose
+{
+color:red;
+margin-left:-60px;
+}
+.po
+{
+position:relative;
+right:100px;
+}
+.pot
+{
+position:relative;
+right:110px;
+}
 /* Insert your CSS here */
