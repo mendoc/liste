@@ -1,1 +1,70 @@
-/* Insert your CSS here */
+main
+{
+	
+	border: 2px solid black;
+	margin: 10px auto;
+	width: 800px;
+	font-family: verdana;
+}
+div.para
+{
+	border-top: 10px solid #ff0000;	
+}
+
+.para 
+{
+	display: flex;
+	justify-content: space-around;
+	color: #ff0000;
+}
+.dev
+{
+	position: relative;
+	left: -100px;
+}
+
+h3
+{ 
+	color: #000;
+	position: relative;
+	left: -90px; 
+	border-bottom:  8px solid #ff0000;
+}
+.temps
+{
+	position: relative;
+	top: 15px;
+	
+
+}
+.para1
+{
+	display: flex;
+	justify-content: space-around;
+	color: #ff0000;
+}
+
+table
+
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 20px auto;
+}
+.tete 
+{
+	text-align: left;
+	background-color: #ff0000;
+	color: white;
+}
+
+ table, th, td
+ {
+ 	border: 2px solid #000;
+ 	padding: 10px;	
+ }
+ .slogan
+ {
+ 	text-align: center;
+ 	font-style: italic;
+ }
