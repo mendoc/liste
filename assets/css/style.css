@@ -1,1 +1,37 @@
-/* Insert your CSS here */
+main {
+    border: solid black 2px;
+    margin: 10px auto;
+}
+
+body {
+    margin: 60px auto;
+    background-position: center;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 5vh;
+    margin: 10px auto;
+    box-shadow: black;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    ;
+}
+
+thead {
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2vh;
+}
+
+.bold {
+    font-weight: bold;
+}
