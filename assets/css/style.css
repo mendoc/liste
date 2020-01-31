@@ -1,1 +1,13 @@
-/* Insert your CSS here */
+
+tbody,thead,tr,th,td{
+	border: 1px solid black;
+	padding: auto;
+
+}
+table{
+	border-collapse:collapse;
+	margin:auto;
+	box-shadow: top;
+	height: 300px
+
+}
