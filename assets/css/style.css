@@ -5,7 +5,7 @@ body{
 
 .container{
     width: 60%;
-    margin: 2em auto;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,7 +88,6 @@ header > div:last-child span{
 
 table{
     border-collapse: collapse;
-    margin-bottom: 2em;
 }
 
 caption{
@@ -97,8 +96,10 @@ caption{
 }
 
 thead{
-    background-color: #ee0606f1;
+    background-color: #ee0606;
     color: #ffffff;
+    position: sticky;
+    top: 0;
 }
 
 td,th{
@@ -112,22 +113,20 @@ td > span{
     font-weight: bold;
 }
 
-td > span::selection{
-    color: #e40707;
-}
-
-td > span::-moz-selection{
-    color: #e40707;
+tbody{
+    height: 20vh;
+    overflow-y: scroll;
 }
 
 tbody > tr:hover{
     background-color: #2e2c2c5e;
 }
 
-tbody > tr td:nth-child(2)::selection{
-    color: #e40707;
-}
-
-tbody > tr td:nth-child(2)::-moz-selection{
-    color: #e40707;
+.table__box{
+    width: 80%;
+    height: 400px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    margin-bottom: 2em;
 }
