@@ -1,132 +1,123 @@
 body{
-    margin: 0;
-    padding: 0;
+    background-color: darkgrey;
 }
 
-.container{
-    width: 60%;
-    margin: 50px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 15px #030303;
+main{
+    width: 800px;
+    height: 1450px;
+    background-color: white;
+    margin: 50px 80px 50px 160px;
+
 }
 
-/* ----------Header Section ----------- */
-
-.bg-red{
-    width: 100%;
-    height: 10px;
-    background-color: #e40707;
+.diez{
+    text-align: center;
+    padding-right: 10px;
+    padding-bottom: 5px;
 }
 
-header{
-    width: 80%;
-    margin: 1em auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.naming{
+    padding-bottom: 5px;
 }
 
-/* ----------- 1ere Section du header ----------------- */
-
-header > div:first-child{
-    grid-column: 1/3;
-    height: 10vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.time{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-right: 10px;
 }
 
-header > div:first-child > span{
-    margin: 1em .7em;
-    display: inline-block;
-    grid-column: auto;
-    font-size: 1.2em;
-    color: #e40707;
+.sig{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-right: 10px;
 }
 
-/* ---------- 2eme Section du header ---------------- */
-
-header > div:last-child{
-    grid-column: 1/3;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 100px;
-    margin-left: 10px;
+.rectangle{
+    width: 800px;
+    height: 25px;
+    background-color: red;
+    margin-top: 0;
 }
 
-.title{
-    display: block;
-}
-
-.title > h1{
-    font-size: 1.5em;
-    font-family: 'Lato',cursive;
-    text-transform: lowercase;
-    color: #080808ce;
-}
-
-header > div:last-child .title{
-    grid-column: auto;
-}
-
-#underline{
-    width: 5em;
-    height: 10px;
-    background-color: #e40707;
-}
-
-header > div:last-child span{
-    display: flex;
-    align-items: center;
-    font-size: 1.2em;
-    color: #e40707;
-}
-
-/* --------------Section du tableau ------------- */
-
-
-table{
+.tableau{
     border-collapse: collapse;
+    display: inline-table;
+    margin: 30px 30px 30px 80px;
+    text-align: left;
+    padding: 10px;
+    width: 650px;
+    height: 700px;
+    font-family: Poppins;
 }
 
-caption{
-    font-size: 2em;
-    font-family: 'Lato',sans-serif;
+p{
+    font-family: Poppins;
 }
 
 thead{
-    background-color: #ee0606;
-    color: #ffffff;
-    position: sticky;
-    top: 0;
+    background-color: red;
+    color: white;
 }
 
-td,th{
-    border: 1px solid #080808f1;
-    padding: 5px 7px;
-    font-family: 'Poppins',sans-serif;
+table th, table td{
+    border: 2px solid black;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
-td > span{
-    text-transform: uppercase;
+
+.t1{
+    color: red;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.span1{
+    padding-left: 186px;
+    color: red;
+    font-size: 0.8em;
+    font-weight: normal;
+
+}
+
+.t2{
+    padding-left: 80px;
+    font-size: 1.2em;
+    font-weight: medium;
+    color: #232323;
+
+}
+
+.span2{
+    font-size: 0.8em;
+    padding-left: 160px;
+    font-weight: normal;
+    color: red;
+}
+
+.trait{
+    width: 40px;
+    height: 6px;
+    background-color: red;
+    margin-left: 80px;
+    margin-top: -15px;
+}
+
+.slogan{
+    text-align: center;
+}
+.span3{
     font-weight: bold;
 }
 
-tbody{
-    height: 20vh;
-    overflow-y: scroll;
+table td{
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-tbody > tr:hover{
-    background-color: #2e2c2c5e;
-}
-
-.table__box{
-    width: 80%;
-    height: 400px;
-    overflow-y: scroll;
-    border-bottom: 1px solid #000000;
-    border-right: 1px solid #000000;
-    margin-bottom: 2em;
+thead th{
+    font-size: 0.8em;
 }
