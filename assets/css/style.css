@@ -1,13 +1,27 @@
 
-tbody,thead,tr,th,td{
+table,tr,th,td {
 	border: 1px solid black;
-	padding: auto;
-
-}
-table{
 	border-collapse:collapse;
-	margin:auto;
-	box-shadow: top;
-	height: 300px
+	margin:0 auto;
+	padding: 5px
+	
+}
 
+
+table td{
+	
+	padding:2px;
+    border-collapse:collapse;
+    
+    
+}
+
+
+
+thead th{
+	background-color:red;
+	
+}
+tbody th{
+	width:5px
 }
