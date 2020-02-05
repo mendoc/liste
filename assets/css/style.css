@@ -1,10 +1,87 @@
+.div{
+	border-radius:5px;
+	border-top:15px solid red;
+	border-bottom:2px solid white ;
+	border-right:2px solid white ; 
+	border-left:2px solid white ;
+	width:800px;
+    margin: 0 auto;
+    position: relative; 
+
+	}
+.p1{
+	position: absolute;
+	right:0;
+	top:0;
+	margin-right:170px;
+}
+ 
+.p2{
+	position:absolute;
+    right:0;
+	bottom:0;
+}
+.p2{
+	position:absolute;
+	right:0;
+	top:0;
+	margin-top: 50px;
+	margin-right:170px;
+}
+.p0{
+  color:black;
+  font-weight: bold;
+  font-size:22px;
+  margin-left:100px;
+}
+p{
+	color: red;
+
+}
+.p4{
+	margin-left:100px;
+
+}
+.p{
+	
+	color: black;
+	text-align: center;
+ color:black;
+  font-weight: bold;
+  font-size:22px;
+  margin-left:100px;
+}
+p{
+	color: red;
+
+}
+.p4{
+	margin-left:100px;
+
+}
+hr{
+
+	height:5px;
+	width:25px;
+	background-color: red;
+	margin-top:5px;
+	position:absolute;
+	top:80px;
+	left:100px;
+
+}
+}
+table{
+	padding: 0;
+	margin-top: 25px;
+}
 
 table,tr,th,td {
 	border: 1px solid black;
 	border-collapse:collapse;
 	margin:0 auto;
-	padding: 5px
-	
+	padding:5px;
+
 }
 
 
@@ -12,11 +89,7 @@ table td{
 	
 	padding:2px;
     border-collapse:collapse;
-    
-    
-}
-
-
+ }
 
 thead th{
 	background-color:red;
@@ -24,4 +97,14 @@ thead th{
 }
 tbody th{
 	width:5px
+}
+span{
+	font-weight: bold;
+}
+main{
+	box-shadow: 1px 10px 5px #aaa;
+	width: 800px;
+	height:900px;
+	margin:0 auto;
+
 }
