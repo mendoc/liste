@@ -1,45 +1,88 @@
-body{
-	padding: 90px;
-	border-top-color: #FF1744;
-	border-top-style: solid;
-	border-top-width: 30px;
-	border-right-style: solid;
-	border-left-style: solid;
-	border-bottom-style: solid;
-	border-right-width: thin;
-	border-left-width: thin;
-	font-size: 20px;
-	margin: 40px 40px 40px 40px;
+main{
+	width: 900px;
+	margin: 100px auto;
+	padding: 60px;
+	box-shadow: 0 0 40px;
+	height: 1100px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 50px;
+	border-top-color: #FF3333;
+	border-top-height: 10px;
+	border-top: 25px solid red;
+	min-width: 65%;
 }
 table{
 	background-color: #FFFFFF;
-	color: #F
 	margin: auto;
 	padding: auto;
 	min-width: 800px;
 	position: center;
 	border: 1px solid black;
 	border-collapse: collapse;
+	height: 800;
 }
 main{
 	font-size: medium;
-	font-family: «Time New Roman»;
-}
-header{
-	width: 100%;
+	border-radius: 5px solid #000;
 }
 th{
-	background-color: #FF1744;
-	color: 
+	background-color: #FF0000;
+	color: #FFF;
+	text-align: justify;
 }
 p.slogan{
 	text-align: center;
+	color: #484848;
 }
-td{
+td,th{
 	border: 1px solid black;
 }
 tr{
-	border-top: solid;
-	border-bottom: solid;
-	border-width: 2px;
+	border-top: solid black;
+	border-bottom: solid black;
+	border-width: 1px solid black;
+}
+.droite{
+	float: right;
+	padding-right: 250px;
+	color: #FF3333;
+}
+.dev{
+	color: #FF3333;
+}
+.nom, .liste{
+	font-weight: bolder;
+
+}
+td,th{
+	height: 30px;
+}
+
+.numero,.heure,.signature{
+	text-align: center;
+}
+td,.info{
+	padding-left: 9px;
+}
+.numero{
+	padding: 2px;
+}
+header p{
+	padding-left: 60px;
+	font-size: 1.5em;
+}
+.trait{
+	display: flex;
+	justify-content: space-between;
+	height: 0;
+	width: 60px;
+	border-bottom: 10px solid #FF3333;
+	margin-bottom: 45px;
+	margin-left: 60px;
+}
+td.numero{
+	text-align: auto;
+	width: 30px;
+	height: 15px;
+	font-size: 0,5em;
 }
